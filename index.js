@@ -1,5 +1,5 @@
 
-function minCost (n, cost) {
+function minCost (cost) {
 	var arr = cost[0]
 	for(var i = 1, length1 = cost.length; i < length1; i++){
 		var asa = cost[i];
@@ -15,4 +15,4 @@ function minCost (n, cost) {
 	}
 	return sum
 }
-minCost(null,[ [1, 2, 3], [1, 2, 3], [3, 3, 1]])
+minCost([ [1, 2, 3], [1, 2, 3], [3, 3, 1]])
